@@ -1,0 +1,125 @@
+{
+  "uid" : "d954fb90b354b60a",
+  "name" : "Проверка вопроса FAQ #5",
+  "fullName" : "src.tests.test_faq.TestFAQ#test_each_faq_question",
+  "historyId" : "c067e022661526c6f063adec787d739a",
+  "time" : {
+    "start" : 1749628499378,
+    "stop" : 1749628500802,
+    "duration" : 1424
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1749628494087,
+      "stop" : 1749628499377,
+      "duration" : 5290
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверить вопрос FAQ 5",
+      "time" : {
+        "start" : 1749628500576,
+        "stop" : 1749628500802,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "idx",
+        "value" : "5"
+      }, {
+        "name" : "expected_text",
+        "value" : "'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1749628500805,
+      "stop" : 1749628503455,
+      "duration" : 2650
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FAQ — Автоскролл и проверка контента"
+  }, {
+    "name" : "suite",
+    "value" : "FAQ Блок"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFAQ"
+  }, {
+    "name" : "host",
+    "value" : "AsconAdmin"
+  }, {
+    "name" : "thread",
+    "value" : "7064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.test_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.'"
+  }, {
+    "name" : "idx",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d954fb90b354b60a.json",
+  "parameterValues" : [ "'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.'", "5" ]
+}
