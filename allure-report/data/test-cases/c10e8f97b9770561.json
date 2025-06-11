@@ -1,0 +1,152 @@
+{
+  "uid" : "c10e8f97b9770561",
+  "name" : "test_each_faq_question[2-\\u0414\\u043e\\u043f\\u0443\\u0441\\u0442\\u0438\\u043c, \\u0432\\u044b \\u043e\\u0444\\u043e\\u0440\\u043c\\u043b\\u044f\\u0435\\u0442\\u0435 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u043d\\u0430 8 \\u043c\\u0430\\u044f. \\u041c\\u044b \\u043f\\u0440\\u0438\\u0432\\u043e\\u0437\\u0438\\u043c \\u0441\\u0430\\u043c\\u043e\\u043a\\u0430\\u0442 8 \\u043c\\u0430\\u044f \\u0432 \\u0442\\u0435\\u0447\\u0435\\u043d\\u0438\\u0435 \\u0434\\u043d\\u044f. \\u041e\\u0442\\u0441\\u0447\\u0451\\u0442 \\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u0438 \\u0430\\u0440\\u0435\\u043d\\u0434\\u044b \\u043d\\u0430\\u0447\\u0438\\u043d\\u0430\\u0435\\u0442\\u0441\\u044f \\u0441 \\u043c\\u043e\\u043c\\u0435\\u043d\\u0442\\u0430, \\u043a\\u043e\\u0433\\u0434\\u0430 \\u0432\\u044b \\u043e\\u043f\\u043b\\u0430\\u0442\\u0438\\u0442\\u0435 \\u0437\\u0430\\u043a\\u0430\\u0437 \\u043a\\u0443\\u0440\\u044c\\u0435\\u0440\\u0443. \\u0415\\u0441\\u043b\\u0438 \\u043c\\u044b \\u043f\\u0440\\u0438\\u0432\\u0435\\u0437\\u043b\\u0438 \\u0441\\u0430\\u043c\\u043e\\u043a\\u0430\\u0442 8 \\u043c\\u0430\\u044f \\u0432 20:30, \\u0441\\u0443\\u0442\\u043e\\u0447\\u043d\\u0430\\u044f \\u0430\\u0440\\u0435\\u043d\\u0434\\u0430 \\u0437\\u0430\\u043a\\u043e\\u043d\\u0447\\u0438\\u0442\\u0441\\u044f 9 \\u043c\\u0430\\u044f \\u0432 20:30.]",
+  "fullName" : "src.tests.test_faq#test_each_faq_question",
+  "historyId" : "ab09ae28a1e3d19a1016976cf1d4d4ec",
+  "time" : {
+    "start" : 1749581814836,
+    "stop" : 1749581816359,
+    "duration" : 1523
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1749581809476,
+      "stop" : 1749581814836,
+      "duration" : 5360
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю главную страницу и принимаю куки",
+      "time" : {
+        "start" : 1749581814837,
+        "stop" : 1749581816100,
+        "duration" : 1263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяю FAQ #3",
+      "time" : {
+        "start" : 1749581816100,
+        "stop" : 1749581816359,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка FAQ вопроса #2",
+        "time" : {
+          "start" : 1749581816100,
+          "stop" : 1749581816359,
+          "duration" : 259
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "idx",
+          "value" : "2"
+        }, {
+          "name" : "expected_text",
+          "value" : "'Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1749581816361,
+      "stop" : 1749581819019,
+      "duration" : 2658
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FAQ — Автоскролл и проверка контента"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_faq"
+  }, {
+    "name" : "host",
+    "value" : "AsconAdmin"
+  }, {
+    "name" : "thread",
+    "value" : "18440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.test_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.'"
+  }, {
+    "name" : "idx",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c10e8f97b9770561.json",
+  "parameterValues" : [ "'Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.'", "2" ]
+}

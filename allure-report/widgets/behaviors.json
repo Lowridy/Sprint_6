@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "de8510c37f15f0ebaa236613cefd1978",
+    "name" : "Полный скрипт заказа",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "170d1ab0ce7127059ba128ec60731d81",
+    "name" : "FAQ — Автоскролл и проверка контента",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "c602a286a08dd8d5ea103f63db46b2d4",
+    "name" : "Полный сценарий заказа",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

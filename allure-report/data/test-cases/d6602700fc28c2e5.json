@@ -1,0 +1,152 @@
+{
+  "uid" : "d6602700fc28c2e5",
+  "name" : "test_each_faq_question[7-\\u0414\\u0430, \\u043e\\u0431\\u044f\\u0437\\u0430\\u0442\\u0435\\u043b\\u044c\\u043d\\u043e. \\u0412\\u0441\\u0435\\u043c \\u0441\\u0430\\u043c\\u043e\\u043a\\u0430\\u0442\\u043e\\u0432! \\u0418 \\u041c\\u043e\\u0441\\u043a\\u0432\\u0435, \\u0438 \\u041c\\u043e\\u0441\\u043a\\u043e\\u0432\\u0441\\u043a\\u043e\\u0439 \\u043e\\u0431\\u043b\\u0430\\u0441\\u0442\\u0438.]",
+  "fullName" : "src.tests.test_faq#test_each_faq_question",
+  "historyId" : "7c3d2a5163d2bd41983657dc81f52d6f",
+  "time" : {
+    "start" : 1749581862873,
+    "stop" : 1749581864360,
+    "duration" : 1487
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1749581857595,
+      "stop" : 1749581862872,
+      "duration" : 5277
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываю главную страницу и принимаю куки",
+      "time" : {
+        "start" : 1749581862873,
+        "stop" : 1749581864084,
+        "duration" : 1211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверяю FAQ #8",
+      "time" : {
+        "start" : 1749581864084,
+        "stop" : 1749581864360,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверка FAQ вопроса #7",
+        "time" : {
+          "start" : 1749581864085,
+          "stop" : 1749581864360,
+          "duration" : 275
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "idx",
+          "value" : "7"
+        }, {
+          "name" : "expected_text",
+          "value" : "'Да, обязательно. Всем самокатов! И Москве, и Московской области.'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1749581864361,
+      "stop" : 1749581867053,
+      "duration" : 2692
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FAQ — Автоскролл и проверка контента"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_faq"
+  }, {
+    "name" : "host",
+    "value" : "AsconAdmin"
+  }, {
+    "name" : "thread",
+    "value" : "18440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.test_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'Да, обязательно. Всем самокатов! И Москве, и Московской области.'"
+  }, {
+    "name" : "idx",
+    "value" : "7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6602700fc28c2e5.json",
+  "parameterValues" : [ "'Да, обязательно. Всем самокатов! И Москве, и Московской области.'", "7" ]
+}

@@ -1,0 +1,125 @@
+{
+  "uid" : "5f38743d0d3a7fe1",
+  "name" : "Проверка вопроса FAQ #0",
+  "fullName" : "src.tests.test_faq.TestFAQ#test_each_faq_question",
+  "historyId" : "41f6feb1c5f643d24f295fa64bef9d55",
+  "time" : {
+    "start" : 1749628451534,
+    "stop" : 1749628453050,
+    "duration" : 1516
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1749628446211,
+      "stop" : 1749628451533,
+      "duration" : 5322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверить вопрос FAQ 0",
+      "time" : {
+        "start" : 1749628452825,
+        "stop" : 1749628453050,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "idx",
+        "value" : "0"
+      }, {
+        "name" : "expected_text",
+        "value" : "'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1749628453052,
+      "stop" : 1749628455762,
+      "duration" : 2710
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FAQ — Автоскролл и проверка контента"
+  }, {
+    "name" : "suite",
+    "value" : "FAQ Блок"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFAQ"
+  }, {
+    "name" : "host",
+    "value" : "AsconAdmin"
+  }, {
+    "name" : "thread",
+    "value" : "7064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.tests.test_faq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'"
+  }, {
+    "name" : "idx",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f38743d0d3a7fe1.json",
+  "parameterValues" : [ "'Сутки — 400 рублей. Оплата курьеру — наличными или картой.'", "0" ]
+}

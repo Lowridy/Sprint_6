@@ -1,0 +1,37 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16",
+      "children" : [ {
+        "name" : "Позитивный флоу заказа (top=True)",
+        "uid" : "51da2a1cd4413477",
+        "parentUid" : "8d500b71c0dfb28efc08768ee95c572c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1749628527492,
+          "stop" : 1749628542998,
+          "duration" : 15506
+        },
+        "flaky" : false,
+        "parameters" : [ "'Ул. Ленина, д.1'", "True", "'оставить у двери'", "'2025-06-20'", "'сутки'", "'Иван'", "'Петров'", "'Черкизовская'", "'+79161234567'", "True" ]
+      }, {
+        "name" : "Позитивный флоу заказа (top=False)",
+        "uid" : "256057cc2d6411fa",
+        "parentUid" : "8d500b71c0dfb28efc08768ee95c572c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1749628551092,
+          "stop" : 1749628566624,
+          "duration" : 15532
+        },
+        "flaky" : false,
+        "parameters" : [ "'Ул. Пушкина, д.10'", "False", "''", "'2025-06-21'", "'двое суток'", "'Мария'", "'Сидорова'", "'Курская'", "'+79876543210'", "False" ]
+      } ],
+      "uid" : "8d500b71c0dfb28efc08768ee95c572c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
